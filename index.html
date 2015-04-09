@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="./js/jsCheckbox.js"></script>
+  </head>
+  <body>
+    <table border="1px">
+	<tr>
+	  <th><input type="checkbox" id="checkAll" onClick="setCkAll()"/></th>
+	  <th>Name</th>
+	</tr>
+	<tr>
+	  <td><input type="checkbox" class="IdToSelect" value="1" onClick="checkForCheckAll()"/></td>
+	  <td>willo</td>
+	  
+	</tr>
+	<tr>
+	  <td><input type="checkbox" class="IdToSelect" value="2" onClick="checkForCheckAll()"/></td>
+	  <td>willo</td>
+	  
+	</tr>
+	<tr>
+	  <td><input type="checkbox" class="IdToSelect" value="3" onClick="checkForCheckAll()"/></td>
+	  <td>willo</td>
+	  
+	</tr>
+
+      </table>
+      <input type="button" value="Click me to get values checked" onClick="getChecked()"/>
+    <h6>Data Selected: </h6><div id="showDataSelected"></div>
+  </body>
+</html>
